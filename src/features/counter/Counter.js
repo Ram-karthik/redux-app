@@ -11,6 +11,7 @@ const Counter = () => {
             <div className='d-flex g-20 jc mt-2'>
                 <button onClick={() => dispatch(increment())}>+</button>
                 <button onClick={() => dispatch(decrement())}>-</button>
+                
             </div>
         </section>
     )
